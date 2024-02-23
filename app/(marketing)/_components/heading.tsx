@@ -1,0 +1,22 @@
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
+
+export function Heading() {
+  return (
+    <div className="max-w-3xl space-y-4">
+      <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold">
+        Unleash the power of your notes. Transform ideas into action. Welcome to{" "}
+        <span className="underline">NoteForge</span>
+      </h1>
+      <h3 className="text-base sm:text-xl md:text-2xl font-medium">
+        Capture, organize, and act on your ideas effortlessly. Collaborate,
+        prioritize, and watch your productivity soar.
+      </h3>
+
+      <Button>
+        Enter the forge gorge
+        <ArrowRight className="h-4 w-4 ml-2" />
+      </Button>
+    </div>
+  );
+}
